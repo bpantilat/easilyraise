@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+*{
+	/* Universal reset: */
+	margin:0;
+	padding:0;
+	height: 100%;
+}
+
+body{
+	/* Setting the default text color, size, page background and a font stack: */
+
+	/*font-size:0.825em;
+	color:#fcfcfc;*/
+	background-color:#CCCCCC;
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+td.header {
+	background-color:#9D00FF;
+}
+
+h1{
+	/* The campaign name text */
+	font-size:3.5em;
+	color: #FBFF00;
+	text-align: center;
+	float: top;
+	/*padding-top: 1em;
+}*/

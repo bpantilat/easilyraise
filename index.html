@@ -1,119 +1,209 @@
 <!DOCTYPE html>
 <html>
+
+  <head>
+  
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      
+      <title>DSP Alpha Nu Campaign</title>
+      
+      <link rel="stylesheet" type="text/css" href="styles.css" />
+             
+      <!--[if IE]>
+      
+      <style type="text/css">
+      .clear {
+        zoom: 1;
+        display: block;
+      }
+      </style>
+
+      
+      <![endif]-->
+      
+  </head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+
+<table id="whole page" width=100% height=100%>
+  <tr>
+    <td class="header" id="left section" width=30%>
+
+      <div >
+
+        <h1>DSP Alpha Nu</h1>
+
+
+      </div>
 
 
 
-<div id='product-component-fe5b5fa3007'></div>
-<script type="text/javascript">
-/*<![CDATA[*/
 
-(function () {
-  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-  if (window.ShopifyBuy) {
-    if (window.ShopifyBuy.UI) {
-      ShopifyBuyInit();
-    } else {
-      loadScript();
-    }
-  } else {
-    loadScript();
-  }
+    </td>
+    <td id="right section" width=70%>
 
-  function loadScript() {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = scriptURL;
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-    script.onload = ShopifyBuyInit;
-  }
 
-  function ShopifyBuyInit() {
-    var client = ShopifyBuy.buildClient({
-      domain: 'greekfundraising.myshopify.com',
-      apiKey: '2cffb488141849ab5ba52bf95b553336',
-      appId: '6',
-    });
+      <!--Shopify Code-->
+        <div id='product-component-a5a8f53de20'></div>
+        <script type="text/javascript">
+        /*<![CDATA[*/
 
-    ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent('product', {
-        id: [10053150410],
-        node: document.getElementById('product-component-fe5b5fa3007'),
-        moneyFormat: '%24%7B%7Bamount%7D%7D',
-        options: {
-  "product": {
-    "layout": "horizontal",
-    "variantId": "all",
-    "width": "100%",
-    "contents": {
-      "variantTitle": false,
-      "description": true,
-      "buttonWithQuantity": false,
-      "quantity": false
-    },
-    "styles": {
-      "product": {
-        "text-align": "left",
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0",
-          "margin-bottom": "50px"
+        (function () {
+          var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+          if (window.ShopifyBuy) {
+            if (window.ShopifyBuy.UI) {
+              ShopifyBuyInit();
+            } else {
+              loadScript();
+            }
+          } else {
+            loadScript();
+          }
+
+          function loadScript() {
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = scriptURL;
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+            script.onload = ShopifyBuyInit;
+          }
+
+          function ShopifyBuyInit() {
+            var client = ShopifyBuy.buildClient({
+              domain: 'greekfundraising.myshopify.com',
+              apiKey: '2cffb488141849ab5ba52bf95b553336',
+              appId: '6',
+            });
+
+            ShopifyBuy.UI.onReady(client).then(function (ui) {
+              ui.createComponent('product', {
+                id: [10107075338],
+                node: document.getElementById('product-component-a5a8f53de20'),
+                moneyFormat: '%24%7B%7Bamount%7D%7D',
+                options: {
+          "product": {
+            "layout": "horizontal",
+            "variantId": "all",
+            "width": "100%",
+            "contents": {
+              "variantTitle": false,
+              "description": true,
+              "buttonWithQuantity": false,
+              "quantity": false
+            },
+            "styles": {
+              "product": {
+                "text-align": "left",
+                "@media (min-width: 601px)": {
+                  "max-width": "100%",
+                  "margin-left": "0",
+                  "margin-bottom": "50px"
+                }
+              },
+              "button": {
+                "background-color": "#f16876",
+                ":hover": {
+                  "background-color": "#d95e6a"
+                },
+                ":focus": {
+                  "background-color": "#d95e6a"
+                }
+              },
+              "title": {
+                "font-size": "26px"
+              },
+              "price": {
+                "font-size": "18px"
+              },
+              "compareAt": {
+                "font-size": "15px"
+              }
+            }
+          },
+          "cart": {
+            "contents": {
+              "button": true
+            },
+            "styles": {
+              "button": {
+                "background-color": "#f16876",
+                ":hover": {
+                  "background-color": "#d95e6a"
+                },
+                ":focus": {
+                  "background-color": "#d95e6a"
+                }
+              },
+              "footer": {
+                "background-color": "#ffffff"
+              }
+            }
+          },
+          "modalProduct": {
+            "contents": {
+              "variantTitle": false,
+              "buttonWithQuantity": false,
+              "quantity": false
+            },
+            "styles": {
+              "product": {
+                "@media (min-width: 601px)": {
+                  "max-width": "100%",
+                  "margin-left": "0px",
+                  "margin-bottom": "0px"
+                }
+              },
+              "button": {
+                "background-color": "#f16876",
+                ":hover": {
+                  "background-color": "#d95e6a"
+                },
+                ":focus": {
+                  "background-color": "#d95e6a"
+                }
+              }
+            }
+          },
+          "toggle": {
+            "styles": {
+              "toggle": {
+                "background-color": "#f16876",
+                ":hover": {
+                  "background-color": "#d95e6a"
+                },
+                ":focus": {
+                  "background-color": "#d95e6a"
+                }
+              }
+            }
+          },
+          "productSet": {
+            "styles": {
+              "products": {
+                "@media (min-width: 601px)": {
+                  "margin-left": "-20px"
+                }
+              }
+            }
+          }
         }
-      },
-      "title": {
-        "font-size": "26px"
-      },
-      "price": {
-        "font-size": "18px"
-      },
-      "compareAt": {
-        "font-size": "15px"
-      }
-    }
-  },
-  "cart": {
-    "contents": {
-      "button": true
-    },
-    "styles": {
-      "footer": {
-        "background-color": "#ffffff"
-      }
-    }
-  },
-  "modalProduct": {
-    "contents": {
-      "variantTitle": false,
-      "buttonWithQuantity": false,
-      "quantity": false
-    },
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0px",
-          "margin-bottom": "0px"
-        }
-      }
-    }
-  },
-  "productSet": {
-    "styles": {
-      "products": {
-        "@media (min-width: 601px)": {
-          "margin-left": "-20px"
-        }
-      }
-    }
-  }
-}
-      });
-    });
-  }
-})();
-/*]]>*/
-</script>
+              });
+            });
+          }
+        })();
+        /*]]>*/
+        </script>
+      <!--END Shopify Code-->
+
+
+
+    </td>
+  </tr>
+</table>
+
+
+
+
 </body>
 </html>
