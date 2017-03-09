@@ -21,6 +21,19 @@ td.header {
 	background-color:#9D00FF;
 }
 
+h1.pageTitle {
+	padding-top: 50px;
+}
+
+.ShopifyCode {
+	padding-top: 30px;
+}
+
+.ERBanner {
+	background-color:#FFFFFF;
+	padding-top: 20px;
+}
+
 h1{
 	/* The campaign name text */
 	font-size:3.5em;
@@ -28,4 +41,5 @@ h1{
 	text-align: center;
 	float: top;
 	/*padding-top: 1em;
-}*/
+	*/
+}
