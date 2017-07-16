@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+*{
+	/* Universal reset: */
+	margin:0;
+	padding:0;
+}
+
+html { overflow-y: scroll; }
+
+body{
+	/* Setting the default text color, size, page background and a font stack: */
+
+	/*font-size:0.825em;
+	color:#fcfcfc;*/
+	background-color:#CCCCCC;
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+a:link, a:visited {
+	color: black;
+}
+a:hover {
+	color: #999999;
+}
+
+/*
+li:before {
+    content: "• ";
+}
+*/
+
+h1{
+	/* The campaign name text */
+	font-size:3.5em;
+	color: #FBFF00;
+	text-align: center;
+	float: top;
+	/*padding-top: 1em;
+	*/
+}
+
+.left {
+	height: 100%;
+	background-color:#9D00FF;
+	width: 30%;
+	position: fixed;
+}
+.wholePage {
+	max-width: 100%;
+	min-width: 100%;
+}
+
+td.header {
+
+	max-width: 30%;
+	min-width: 30%;
+	height: 100%;
+}
+
+.rightSection {
+	max-width: 70%;
+	min-width: 70%;
+	height: 100%;
+}
+
+.leftSection {
+	padding-top: 50px;
+	height: 100%;
+	background-color:#9D00FF;
+}
+
+.description {
+	padding-top: 30px;
+}
+
+p.campaignDiscription {
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	max-height: 100px;
+	color: white;
+}
+
+.bulletList {
+	padding-top: 10px;
+	width: 70%;
+	margin:0 auto;
+	text-align:left;
+	color: white;
+}
+
+.ShopifyCode {
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.ERBanner {
+	background-color:#FFFFFF;
+	padding-bottom: 20px;
+	text-align: center;
+	position: fixed;
+	bottom: 50px;
+}
+
+.ERLogoBanner {
+	height: 50%;
+	padding-top: 7px;
+	padding-bottom: 20px;
+	max-height: 50px;
+}
+
+a:link, a:visited {
+	color: black;
+}
+a:hover {
+	color: #999999;
+}
+
+
+h1{
+	/* The campaign name text */
+	font-size:3.5em;
+	color: #FBFF00;
+	text-align: center;
+	float: top;
+	/*padding-top: 1em;
+	*/
+}
