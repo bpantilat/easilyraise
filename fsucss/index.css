@@ -1,0 +1,86 @@
+body {
+  background-color: rgb(99, 4, 27); /* Change This */
+  font: 300 1em/1.38 Oxygen;
+  color: rgb(160, 160, 159);
+}
+
+.campaigndescription {
+  width: 25.5833333333%;
+  min-width: 307px;
+  max-width: 307px;
+  min-height: 178px;
+  margin: 0 auto;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(160, 160, 159);
+}
+
+.campaigndescription p {
+  margin-bottom: 0.2em;
+}
+
+.campaignimage {
+  width: 27.25%;
+  min-width: 309px;
+  max-width: 309px;
+  height: 308px;
+  min-height: 308px;
+  max-height: 308px;
+  margin: 40px auto 0;
+  background: url('../images/fsu.gif') /* Change This */ rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.campaigntitle {
+  width: 25.6%;
+  min-width: 307px;
+  max-width: 307px;
+  min-height: 74px;
+  margin: 5px auto 0;
+  font-family: Montserrat;
+  font-size: 2.875em;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.footer {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 95px;
+  background-color: rgb(255, 255, 255);
+}
+
+.learnmore {
+  display: block;
+  float: left;
+  width: 40.75%;
+  min-height: 33px;
+  margin: 23px 0 0 5.27995%;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.logo {
+  float: left;
+  width: 20.3333333333%;
+  height: 54px;
+  margin: 19px 0 0 16.79948%;
+  background: url('../images/logo.png') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.wrapper {
+  float: left;
+  clear: both;
+  width: 80%;
+  margin: 34px 0 0 10%;
+  overflow: hidden;
+}
