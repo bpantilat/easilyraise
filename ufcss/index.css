@@ -216,75 +216,69 @@ body {
     height: 170px;
   }
 
-  .container .text {
-    position: relative;
-  }
-
   .shopifyy {
-    position: relative;
-    z-index: 18;
-    margin-top: -65px;
-    margin-left: 18.27309%;
+    clear: none;
+    margin-top: 0;
+    margin-left: 18.31859%;
   }
 
+  .container .text,
   .text {
     position: relative;
   }
 
   .container .element-3 {
     margin-top: 30px;
-    margin-left: 39.9130899999%;
+    margin-left: 39.90888%;
   }
 
   .container .element-4 {
-    margin-left: 9.8599599999%;
+    margin-left: 9.85556%;
   }
 
   .container .element-5 {
-    margin-top: 9px;
-    margin-left: 44.08961%;
+    margin-top: 11px;
+    margin-left: 40.87496%;
   }
 
   .container .text-4 {
     z-index: 7;
     width: 76.3157894736%;
-    margin-top: -110px;
-    margin-left: -43.60445%;
+    margin-top: 16px;
+    margin-left: 21.46895%;
   }
 
   .container .text-5 {
     z-index: 8;
     width: 76.3157894736%;
-    margin-top: -81px;
-    margin-left: -43.60445%;
+    margin-left: 21.46895%;
   }
 
   .container .text-6 {
     z-index: 12;
     width: 86.4035087719%;
-    margin-top: -73px;
-    margin-left: 84.41959%;
+    margin-top: 38px;
+    margin-left: -9.49886%;
   }
 
   .container .text-7 {
     z-index: 11;
     width: 86.4035087719%;
-    margin-top: -102px;
-    margin-left: 84.41959%;
+    margin-left: -9.49886%;
   }
 
   .container .text-8 {
     z-index: 15;
     width: 73.1092436974%;
-    margin-top: -131px;
-    margin-left: -36.36095%;
+    margin-top: 15px;
+    margin-left: 26.8267%;
   }
 
   .container .text-9 {
     z-index: 16;
-    width: 73.1092436974%;
-    margin-top: -102px;
-    margin-left: -36.36095%;
+    width: 55.8893013837%;
+    margin-top: -18px;
+    margin-left: 36.57189%;
   }
 
   .container-1 {
@@ -294,20 +288,24 @@ body {
   .container-2 {
     z-index: 9;
     width: 37.1875%;
-    margin-left: 16.82982%;
+    margin-top: -286px;
+    margin-left: 3.58779%;
   }
 
   .container-3 {
+    clear: both;
     z-index: 13;
     width: 35.625%;
-    margin-left: 5.07656%;
+    margin-top: -265px;
+    margin-left: 39.80139%;
   }
 
   .container-4 {
     clear: both;
     z-index: 17;
     width: 37.1875%;
-    margin-left: 4.74398%;
+    margin-top: -312px;
+    margin-left: 50.79851%;
   }
 
   .element-1 {
@@ -339,6 +337,268 @@ body {
 
   .text-3 {
     z-index: 5;
+    margin-top: -300px;
     margin-left: 16.79531%;
+  }
+}
+
+@media(max-width: 775px) {
+  body {
+    font-size: 1.25em;
+  }
+
+  .container {
+    position: relative;
+  }
+
+  .container .text {
+    position: relative;
+  }
+
+  .shopifyy {
+    margin-top: 34px;
+    margin-left: 15.16331%;
+  }
+
+  .text {
+    position: relative;
+  }
+
+  .container .element-3 {
+    margin-left: 3.76496%;
+  }
+
+  .container .element-4 {
+    margin-top: 38px;
+    margin-left: 4.22191%;
+  }
+
+  .container .element-5 {
+    margin-top: 39px;
+    margin-left: -0.59172%;
+  }
+
+  .container .text-4 {
+    z-index: 7;
+    width: 59.0425531914%;
+    margin-top: 10px;
+    margin-left: 17.19747%;
+  }
+
+  .container .text-5 {
+    z-index: 8;
+    width: 77.659574468%;
+    margin-left: 6.55086%;
+  }
+
+  .container .text-6 {
+    z-index: 12;
+    margin-top: 29px;
+    margin-left: 4.22191%;
+  }
+
+  .container .text-7 {
+    z-index: 11;
+    margin-left: 4.22191%;
+  }
+
+  .container .text-8 {
+    z-index: 15;
+    width: 100%;
+    margin-top: 0;
+    margin-left: -0.59172%;
+  }
+
+  .container .text-9 {
+    z-index: 16;
+    width: 100%;
+    margin-top: -17px;
+    margin-left: 0;
+  }
+
+  .container-1 {
+    z-index: 0;
+  }
+
+  .container-2 {
+    z-index: 9;
+    width: 24.2580645161%;
+    margin-top: -271px;
+    margin-left: 16.77218%;
+  }
+
+  .container-3 {
+    z-index: 13;
+    width: 25.5483870967%;
+    margin-top: -296px;
+    margin-left: 38.85081%;
+  }
+
+  .container-4 {
+    clear: none;
+    z-index: 17;
+    width: 21.8064516129%;
+    margin-top: -296px;
+    margin-left: 62.70968%;
+  }
+
+  .element-1 {
+    position: relative;
+    z-index: 3;
+    width: 23.3548387096%;
+    margin-left: 60.64516%;
+  }
+
+  .element-2 {
+    position: relative;
+    z-index: 4;
+    margin-left: 15.16331%;
+  }
+
+  .text-1 {
+    z-index: 1;
+    margin-left: 15.99597%;
+  }
+
+  .text-2 {
+    z-index: 2;
+    margin-left: 15.99597%;
+  }
+
+  .text-3 {
+    z-index: 5;
+    margin-left: 16.79234%;
+  }
+}
+
+@media(max-width: 465px) {
+  .container {
+    position: relative;
+  }
+
+  .container .text {
+    position: relative;
+  }
+
+  .shopifyy {
+    position: relative;
+    clear: both;
+    z-index: 18;
+    margin-top: -88px;
+    margin-left: 15.16129%;
+  }
+
+  .text {
+    position: relative;
+  }
+
+  .container .element-3 {
+    margin-left: 39.88087%;
+  }
+
+  .container .element-4 {
+    position: relative;
+    z-index: 10;
+    margin-top: 0;
+    margin-left: 9.82507%;
+  }
+
+  .container .element-5 {
+    position: relative;
+    z-index: 14;
+    margin-top: 9px;
+    margin-left: 44.0672%;
+  }
+
+  .container .text-4 {
+    z-index: 7;
+    margin-top: -110px;
+    margin-left: -43.55174%;
+  }
+
+  .container .text-5 {
+    z-index: 8;
+    margin-top: -81px;
+    margin-left: -43.55174%;
+  }
+
+  .container .text-6 {
+    z-index: 12;
+    margin-top: -75px;
+    margin-left: 116.7697%;
+  }
+
+  .container .text-7 {
+    z-index: 11;
+    margin-top: -102px;
+    margin-left: 114.50743%;
+  }
+
+  .container .text-8 {
+    z-index: 15;
+    margin-top: -124px;
+    margin-left: -44.74154%;
+  }
+
+  .container .text-9 {
+    z-index: 16;
+    width: 82.7067669172%;
+    margin-top: -95px;
+    margin-left: -34.51598%;
+  }
+
+  .container-1 {
+    z-index: 0;
+  }
+
+  .container-2 {
+    z-index: 9;
+    margin-top: -311px;
+    margin-left: 31.73723%;
+  }
+
+  .container-3 {
+    clear: none;
+    z-index: 13;
+    width: 33.3333333333%;
+    margin-top: -125px;
+    margin-left: 15.91398%;
+  }
+
+  .container-4 {
+    clear: both;
+    z-index: 17;
+    width: 28.6021505376%;
+    margin-top: -134px;
+    margin-left: 28.8%;
+  }
+
+  .element-1 {
+    position: relative;
+    z-index: 3;
+    margin-left: 63.59543%;
+  }
+
+  .element-2 {
+    position: relative;
+    z-index: 4;
+    margin-left: 15.16129%;
+  }
+
+  .text-1 {
+    z-index: 1;
+    margin-left: 15.94758%;
+  }
+
+  .text-2 {
+    z-index: 2;
+    margin-top: -421px;
+    margin-left: 15.94758%;
+  }
+
+  .text-3 {
+    z-index: 5;
+    margin-top: -304px;
+    margin-left: 16.82796%;
   }
 }
