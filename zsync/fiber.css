@@ -4,6 +4,7 @@
 }
 
 body {
+   color: white;
    font-family: futura;
    width: 100%;
    height: 100%;
@@ -13,7 +14,6 @@ body {
 }
 
 .navigationR {
-    color: white;
     overflow: hidden;
     padding:1%;
     background-color: #FF8C00;
@@ -63,27 +63,35 @@ p{
 }
 
 .main{
-	padding: 5%;
+	padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 2%;
+  padding-right: 2%;
 	border-bottom: 2px solid white;
-  background-color: #708090;
-	/* background-image: url("globalMap.jpg"); */
+  /* background-color: #808080; */
+	background-image: url("globalMap.jpg");
 }
 
 .welcome {
-  padding-left: 20%;
+  padding-left: 30%;
   text-align: left;
 }
 
 #intro_text p{
 	font-size: 110%;
-	padding-left: 20%;
-	padding-right: 20%;
+	padding-left: 10%;
+	padding-right: 10%;
 	/*background-color: rgba(176,196,222)*/
 }
 
 #intro_text{
-	padding: 5%;
-	padding-top: 12%;
+	/* padding: 5%; */
+	padding-top: 5%;
+  font-size: 90%;
+}
+
+#intro_text img {
+  width: 30%;
 }
 
 #intro{
@@ -91,7 +99,6 @@ p{
 	height:100%;
 	padding-top: 2%;
 	background-color: #A9A9A9;
-	/*background-image: url("floral.jpg");*/
 	margin: 2px;
 	/*border: 2px solid white;*/
 }
@@ -104,7 +111,7 @@ p{
 }
 
 #arrow {
-	width: 10%;
+	width: 5%;
 	padding-top: 5%;
 	margin: 0px;
 	display: block;
@@ -112,53 +119,65 @@ p{
 	margin-right: auto;
 }
 
-/* #progress p{
-  display: inline;
-  float: left;
-} */
+#sect1{
+  padding-top:5%;
+  background-color:#A9A9A9;
+}
 
-.position1, .position2, .position3, .position4 {
-  width: 300px;
-  float:left;
-  display: inline-block;
-  margin:10px;
-  background-color:white;
-  height: 150px;
-  width: 250px;
-  color: #FFA500;
+#sect1 img {
+  width: 30%;
+}
+
+.aboutSect{
+  overflow: hidden;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 100%;
+  height: 600px;
+  background-color: #A9A9A9;
+  /* border: 2px solid white; */
+}
+
+.aboutSect a {
+  float: center;
+  /* width: 100%; */
+  font-size: 300%;
+  color: #f2f2f2;
+  padding: 40px 40px 40px 40px;
+  text-align: center;
+  text-decoration: none;
+  height: 160px;
+  width: 240px;
+  background-color: #FFA500;
   border-radius: 50%;
   display: inline-block;
 }
 
-.position2 {
-  color:white;
-  background-color: #FFA500
-}
-
-#progress{
-  padding-top:5%;
-  padding-left: 10%;
+.onboardingButton a, .productGroupButton, .locationsButton, .resourcesButton {
+  text-align: center;
+  /* height: 150px; */
+  padding-top: 100px;
+  padding-left: 5%;
 }
 
 
-#main {
-  width: 100%;
-  height: 1000px;
-  padding-top: 17%;
+.aboutSect p{
+	text-align: left;
+	padding:0% 15% 5% 15%;
 }
 
-#main img{
-  width: 40%;
-  padding-top:5%;
-  padding-bottom: 1%;
-  /* border-radius: 60%; */
+.workSect{
+	width: 100%;
+	height: 100%;
+	background-color: #606e8a;
+	border: 2px solid white;
 }
 
-#main a{
-  /* padding-top: 30%; */
-  text-decoration: none;
-  color: black;
-  width: 200px;
+.contactSect{
+	width: 100%;
+	height: 100%;
+	background-color: #a1b4d9;
+	border: 2px solid white;
 }
 
 .footer {
@@ -167,6 +186,55 @@ p{
     text-align: right;
 }
 
+.wlinks img{
+	/*width: 20%;*/
+	/*display: inline;*/
+	/*padding: 12%;*/
+	padding-bottom: 10%;
+}
+
+.portal{
+	float: left;
+	padding-left: 14%;
+}
+
+.contactSect{
+	padding-bottom: 10%;
+}
+
+#sect3 h2{
+	text-align: left;
+	width: 30%;
+	padding-left: 5%;
+}
+
+#sect3 h3{
+	text-align: left;
+	padding-left: 10%;
+}
+
+#sect3 p{
+	text-align: left;
+	padding-left: 10%;
+}
+
+.contactSect a{
+	text-align: left;
+	text-decoration-color: white;
+	padding-left: -10%;
+	text-decoration: none;
+}
+
+#contactbox{
+	border: 2px solid white;
+}
+
+
+circle {
+  fill: steelblue;
+  fill-opacity: .6;
+  stroke: #fff;
+}
 
 @media screen and (max-width: 1050px){
 	h1{
